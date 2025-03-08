@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  publiser:
+    image: ${DOCKER_REGISTRY-}publiser
+    build:
+      context: .\ConsoleApp1
+      dockerfile: Dockerfile
