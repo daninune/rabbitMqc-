@@ -1,0 +1,12 @@
+name: dockercompose8141324108982568726
+services:
+  publiser:
+    build:
+      context: C:\Users\danib\source\repos\rabbitMqc-\ConsoleApp1
+      dockerfile: Dockerfile
+    image: publiser
+    networks:
+      default: null
+networks:
+  default:
+    name: dockercompose8141324108982568726_default
